@@ -1,0 +1,215 @@
+body{
+ box-shadow: outset 10px 10px 10px rgb(141, 141, 141);
+}
+.body1{
+ margin: 0;
+ padding: 0;
+ height: 3000px;
+padding-top: 66px;
+padding-left: 113px;
+background-color: rgba(246, 246, 246, 0.725);
+}
+
+.header{
+ height: 57px;
+ display: flex;
+ flex-direction: row;
+justify-content: space-between;
+margin-bottom: 10px;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+background-color: white;
+border-bottom-width:1px ;
+border-bottom-style:solid ;
+border-bottom-color:rgb(239, 239, 239) ;
+
+z-index: 4;
+}
+
+.leftsection{
+display: flex;
+width: 280px;
+align-items: center;
+}
+.icon1{
+ width: 48px;
+ height: 24px;
+margin-left: 41px;
+display: inline-block;
+}
+.icon2{
+width: 90px;
+display: inline-block;
+margin-left: 10px;
+}
+
+.midsection{
+ margin-left: 37px;
+
+margin-right: 20px;
+flex: 1;
+max-width: 698px;
+display:flex ;
+ align-items: center;
+}
+.searchbar{
+height: 36px;
+flex: 1;
+border-radius: 80px 0px 0px 80px;
+border: none;
+font-size: 16px;
+font-family: arial;
+padding-left: 49px;
+border-color: blue;
+max-width: 518px;
+box-shadow: 0.5px 0.5px 2.5px 2.5px rgb(236, 236, 236); 
+width: 0px;
+flex-shrink: 0px;
+}
+.searchbar:focus{
+outline: solid;
+width: 1px;
+outline-width: 1px;
+
+}
+.icon31{
+position: absolute;
+height:18px; width:17px; border-radius: 20px; 
+padding-left: 19px; padding-top: 5px;
+}
+
+.icon3{
+height: 16px; width: 16px;
+}
+.icon3button{
+ height: 40px; width:64px; 
+ border-radius: 0px 20px 20px 0px; 
+ border: none;
+ margin-right: 16px;
+position: relative;
+padding-top: 7px;
+}
+
+.icon3button:active{
+ background-color: rgb(231, 231, 231);
+ color: rgb(231, 231, 231);
+
+ }
+.tooltip{
+ background-color: rgb(174, 174, 174);
+ color: white;
+ position: absolute;
+ border-style: solid;
+ border-width: 1px;
+ border-color: black;
+ padding: 4px 4px 4px 4px;
+ bottom: -35px;
+ opacity: 0;
+ font-family: roboto;
+}
+.icon3button:hover .tooltip  {
+opacity: 1;
+transition: 1s;
+pointer-events: none;
+}
+
+
+.icon4{
+height:22px; width:16px;  
+border-radius: 20px;
+background-color: rgb(238, 238, 238);
+}
+.icon4button{
+border-radius: 20px;
+border: none;
+color: rgb(238, 238, 238);
+height: 38px; width: 40px;
+position: relative;
+}
+.icon4button:hover{
+ background-color: rgb(221, 221, 221);
+}
+
+.icon4button:active{
+background-color: rgb(231, 231, 231);
+color: rgb(231, 231, 231);
+}
+.tooltip1{
+ color: white;
+ background-color: rgb(149, 149, 149);
+border: 1px solid black;
+ padding: 6px 1px 6px 1px;
+ position: absolute;
+ font-family: roboto;
+ width: 180px;
+bottom: -40px;
+left: -60px;
+opacity: 0;
+ }
+.icon4button:hover .tooltip1{
+opacity: 1;
+pointer-events: none;
+transition: 1s;
+}
+
+.rightsection{
+width: 300px;
+display: flex;
+justify-content: right;
+align-items: center;
+}
+.icon5{
+ height: 30px; width: 32px;
+ border-radius: 60px;
+
+}
+.icon5button{
+ border-radius: 60px;
+ background-color: white;
+
+ height: 36px; width: 40px;  margin-right: 15px;
+border: none;
+}
+.icon5button:hover{
+opacity: 0.8;
+}
+.icon5button:active{
+opacity: 0.6;
+}
+.icon6{
+ height: 24px; width: 22px;
+ border-radius: 60px;
+
+}
+.icon6button{
+background-color: white;
+border-radius: 60px;
+height: 36px; width: 40px;
+border: none;
+}
+
+.icon6button:active{
+opacity: 0.6;
+}
+.profilepic{
+ margin-left: 15px;
+margin-right: 25px;
+height: 32px; width: 32px;
+border-radius: 60px;
+}
+.notification{
+ position: relative;
+}
+.notificationnumber{
+ position: absolute;
+ font-size: 13px;
+ right: 0px;
+ color: white;
+ background-color: red;
+ border-radius: 15px;
+ padding: 1px 3px 1px 3px;
+ font-family: roboto;
+}
+

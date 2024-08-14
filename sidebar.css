@@ -1,0 +1,32 @@
+.sidebar{
+ position: fixed;
+ top: 56px;
+ left: 0px;
+ bottom: 0px;
+ width: 100px;
+background-color: white;
+ z-index: 9;
+ cursor: pointer;
+ border-style: solid;
+ border-width: 1px;
+ border-color: rgb(235, 235, 235);
+ border-top: none;
+
+ }
+.icona{
+ height: 96px;
+ display:flex;
+ flex-direction: column;
+ flex: 90;
+justify-content: center;
+align-items: center;
+font-family: roboto;
+font-size: 12px;
+
+}
+.icona:hover{
+ background-color:rgb(220, 220, 220);
+}
+.icona div{
+margin-top: 11px;
+}
